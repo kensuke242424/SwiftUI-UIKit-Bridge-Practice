@@ -9,7 +9,7 @@ import SwiftUI
 import UIKit
 
 // SwiftUIで使用するUIViewを定義
-struct CustomUIView: UIViewRepresentable {
+struct RepresentedCustomView: UIViewRepresentable {
 
     // ここでUIViewを生成
     func makeUIView(context: Context) -> some UIView {
