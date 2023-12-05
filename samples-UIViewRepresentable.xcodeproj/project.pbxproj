@@ -13,6 +13,7 @@
 		BE83D2D82B1FDC4F0069DFD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE83D2D72B1FDC4F0069DFD7 /* Preview Assets.xcassets */; };
 		BE83D2E32B1FDCEF0069DFD7 /* CustomUIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83D2E22B1FDCEF0069DFD7 /* CustomUIViewRepresentable.swift */; };
 		BE83D2E52B1FDD1C0069DFD7 /* RepresentedCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83D2E42B1FDD1C0069DFD7 /* RepresentedCustomView.swift */; };
+		BE83D2E72B1FE1070069DFD7 /* UIImagePickerControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83D2E62B1FE1070069DFD7 /* UIImagePickerControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BE83D2D92B1FDC4F0069DFD7 /* samples_UIViewRepresentable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = samples_UIViewRepresentable.entitlements; sourceTree = "<group>"; };
 		BE83D2E22B1FDCEF0069DFD7 /* CustomUIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIViewRepresentable.swift; sourceTree = "<group>"; };
 		BE83D2E42B1FDD1C0069DFD7 /* RepresentedCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentedCustomView.swift; sourceTree = "<group>"; };
+		BE83D2E62B1FE1070069DFD7 /* UIImagePickerControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				BE83D2E22B1FDCEF0069DFD7 /* CustomUIViewRepresentable.swift */,
 				BE83D2E42B1FDD1C0069DFD7 /* RepresentedCustomView.swift */,
+				BE83D2E62B1FE1070069DFD7 /* UIImagePickerControllerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				BE83D2E52B1FDD1C0069DFD7 /* RepresentedCustomView.swift in Sources */,
 				BE83D2D12B1FDC4D0069DFD7 /* samples_UIViewRepresentableApp.swift in Sources */,
 				BE83D2E32B1FDCEF0069DFD7 /* CustomUIViewRepresentable.swift in Sources */,
+				BE83D2E72B1FE1070069DFD7 /* UIImagePickerControllerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
