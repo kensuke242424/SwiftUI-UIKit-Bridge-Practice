@@ -13,7 +13,20 @@ struct UIImagePickerControllerViewRepresentable: View {
     @State private var isShowPickerView: Bool = false
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            if let image {
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+            }
+            Button("写真を選択") {
+                isShowPickerView.toggle()
+            }
+        }
+        .sheet(isPresented: $isShowPickerView) {
+            // UIImagePickerControllerViewをシートとして表示
+            UIImagePickerControllerView(image: $image)
+        }
     }
 }
 
