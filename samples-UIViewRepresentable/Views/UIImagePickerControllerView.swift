@@ -31,6 +31,12 @@ struct UIImagePickerControllerView: UIViewRepresentable {
         }
     }
 
+    // Coordinatorインスタンスの生成
+    func makeCoordinator() -> Coordinator {
+        // self -> UIImagePickerControllerView（親ビュー自身）
+        Coordinator(self)
+    }
+
     func makeUIView(context: Context) -> some UIView {
         <#code#>
     }
