@@ -9,6 +9,9 @@ import SwiftUI
 
 // UIImagePickerControllerViewを使用するSwiftUIビュー
 struct UIImagePickerControllerViewRepresentable: View {
+    @State private var image: UIImage?
+    @State private var isShowPickerView: Bool = false
+
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

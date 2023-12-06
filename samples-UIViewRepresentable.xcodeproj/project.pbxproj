@@ -97,12 +97,28 @@
 		BE83D2E12B1FDC600069DFD7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BE83D2E22B1FDCEF0069DFD7 /* CustomUIViewRepresentable.swift */,
-				BE83D2E82B1FF9F80069DFD7 /* UIImagePickerControllerViewRepresentable.swift */,
-				BE83D2E42B1FDD1C0069DFD7 /* RepresentedCustomView.swift */,
-				BE83D2E62B1FE1070069DFD7 /* UIImagePickerControllerView.swift */,
+				BE83D2EB2B1FFA9B0069DFD7 /* SwiftUIViews */,
+				BE83D2EA2B1FFA930069DFD7 /* UIKitViews */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BE83D2EA2B1FFA930069DFD7 /* UIKitViews */ = {
+			isa = PBXGroup;
+			children = (
+				BE83D2E62B1FE1070069DFD7 /* UIImagePickerControllerView.swift */,
+				BE83D2E42B1FDD1C0069DFD7 /* RepresentedCustomView.swift */,
+			);
+			path = UIKitViews;
+			sourceTree = "<group>";
+		};
+		BE83D2EB2B1FFA9B0069DFD7 /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				BE83D2E22B1FDCEF0069DFD7 /* CustomUIViewRepresentable.swift */,
+				BE83D2E82B1FF9F80069DFD7 /* UIImagePickerControllerViewRepresentable.swift */,
+			);
+			path = SwiftUIViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
